@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41A8B8FC2BFEB5E100ABA398 /* StrudelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */; };
+		41A8B8FE2BFEB5E100ABA398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */; };
+		41A8B9002BFEB5E200ABA398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A8B8FF2BFEB5E200ABA398 /* Assets.xcassets */; };
+		41A8B9032BFEB5E200ABA398 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A8B9022BFEB5E200ABA398 /* Preview Assets.xcassets */; };
+		41A8B9052BFEB5E200ABA398 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B9042BFEB5E200ABA398 /* Persistence.swift */; };
+		41A8B9082BFEB5E200ABA398 /* Strudel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B9062BFEB5E200ABA398 /* Strudel.xcdatamodeld */; };
+		41A8B9122BFEB5E200ABA398 /* StrudelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B9112BFEB5E200ABA398 /* StrudelTests.swift */; };
+		41A8B91C2BFEB5E200ABA398 /* StrudelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B91B2BFEB5E200ABA398 /* StrudelUITests.swift */; };
+		41A8B91E2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B91D2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41A8B90E2BFEB5E200ABA398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A8B8F02BFEB5E100ABA398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A8B8F72BFEB5E100ABA398;
+			remoteInfo = Strudel;
+		};
+		41A8B9182BFEB5E200ABA398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A8B8F02BFEB5E100ABA398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A8B8F72BFEB5E100ABA398;
+			remoteInfo = Strudel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41A8B8F82BFEB5E100ABA398 /* Strudel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strudel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrudelApp.swift; sourceTree = "<group>"; };
+		41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41A8B8FF2BFEB5E200ABA398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41A8B9022BFEB5E200ABA398 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41A8B9042BFEB5E200ABA398 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		41A8B9072BFEB5E200ABA398 /* Strudel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strudel.xcdatamodel; sourceTree = "<group>"; };
+		41A8B90D2BFEB5E200ABA398 /* StrudelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrudelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A8B9112BFEB5E200ABA398 /* StrudelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrudelTests.swift; sourceTree = "<group>"; };
+		41A8B9172BFEB5E200ABA398 /* StrudelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrudelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41A8B91B2BFEB5E200ABA398 /* StrudelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrudelUITests.swift; sourceTree = "<group>"; };
+		41A8B91D2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrudelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41A8B8F52BFEB5E100ABA398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A8B90A2BFEB5E200ABA398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A8B9142BFEB5E200ABA398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A8B8EF2BFEB5E100ABA398 = {
+			isa = PBXGroup;
+			children = (
+				41A8B8FA2BFEB5E100ABA398 /* Strudel */,
+				41A8B9102BFEB5E200ABA398 /* StrudelTests */,
+				41A8B91A2BFEB5E200ABA398 /* StrudelUITests */,
+				41A8B8F92BFEB5E100ABA398 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41A8B8F92BFEB5E100ABA398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41A8B8F82BFEB5E100ABA398 /* Strudel.app */,
+				41A8B90D2BFEB5E200ABA398 /* StrudelTests.xctest */,
+				41A8B9172BFEB5E200ABA398 /* StrudelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41A8B8FA2BFEB5E100ABA398 /* Strudel */ = {
+			isa = PBXGroup;
+			children = (
+				41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */,
+				41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */,
+				41A8B8FF2BFEB5E200ABA398 /* Assets.xcassets */,
+				41A8B9042BFEB5E200ABA398 /* Persistence.swift */,
+				41A8B9062BFEB5E200ABA398 /* Strudel.xcdatamodeld */,
+				41A8B9012BFEB5E200ABA398 /* Preview Content */,
+			);
+			path = Strudel;
+			sourceTree = "<group>";
+		};
+		41A8B9012BFEB5E200ABA398 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41A8B9022BFEB5E200ABA398 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41A8B9102BFEB5E200ABA398 /* StrudelTests */ = {
+			isa = PBXGroup;
+			children = (
+				41A8B9112BFEB5E200ABA398 /* StrudelTests.swift */,
+			);
+			path = StrudelTests;
+			sourceTree = "<group>";
+		};
+		41A8B91A2BFEB5E200ABA398 /* StrudelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41A8B91B2BFEB5E200ABA398 /* StrudelUITests.swift */,
+				41A8B91D2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift */,
+			);
+			path = StrudelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41A8B8F72BFEB5E100ABA398 /* Strudel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A8B9212BFEB5E200ABA398 /* Build configuration list for PBXNativeTarget "Strudel" */;
+			buildPhases = (
+				41A8B8F42BFEB5E100ABA398 /* Sources */,
+				41A8B8F52BFEB5E100ABA398 /* Frameworks */,
+				41A8B8F62BFEB5E100ABA398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Strudel;
+			productName = Strudel;
+			productReference = 41A8B8F82BFEB5E100ABA398 /* Strudel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41A8B90C2BFEB5E200ABA398 /* StrudelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A8B9242BFEB5E200ABA398 /* Build configuration list for PBXNativeTarget "StrudelTests" */;
+			buildPhases = (
+				41A8B9092BFEB5E200ABA398 /* Sources */,
+				41A8B90A2BFEB5E200ABA398 /* Frameworks */,
+				41A8B90B2BFEB5E200ABA398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A8B90F2BFEB5E200ABA398 /* PBXTargetDependency */,
+			);
+			name = StrudelTests;
+			productName = StrudelTests;
+			productReference = 41A8B90D2BFEB5E200ABA398 /* StrudelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41A8B9162BFEB5E200ABA398 /* StrudelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A8B9272BFEB5E200ABA398 /* Build configuration list for PBXNativeTarget "StrudelUITests" */;
+			buildPhases = (
+				41A8B9132BFEB5E200ABA398 /* Sources */,
+				41A8B9142BFEB5E200ABA398 /* Frameworks */,
+				41A8B9152BFEB5E200ABA398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A8B9192BFEB5E200ABA398 /* PBXTargetDependency */,
+			);
+			name = StrudelUITests;
+			productName = StrudelUITests;
+			productReference = 41A8B9172BFEB5E200ABA398 /* StrudelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41A8B8F02BFEB5E100ABA398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					41A8B8F72BFEB5E100ABA398 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					41A8B90C2BFEB5E200ABA398 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 41A8B8F72BFEB5E100ABA398;
+					};
+					41A8B9162BFEB5E200ABA398 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 41A8B8F72BFEB5E100ABA398;
+					};
+				};
+			};
+			buildConfigurationList = 41A8B8F32BFEB5E100ABA398 /* Build configuration list for PBXProject "Strudel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41A8B8EF2BFEB5E100ABA398;
+			productRefGroup = 41A8B8F92BFEB5E100ABA398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41A8B8F72BFEB5E100ABA398 /* Strudel */,
+				41A8B90C2BFEB5E200ABA398 /* StrudelTests */,
+				41A8B9162BFEB5E200ABA398 /* StrudelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41A8B8F62BFEB5E100ABA398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A8B9032BFEB5E200ABA398 /* Preview Assets.xcassets in Resources */,
+				41A8B9002BFEB5E200ABA398 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A8B90B2BFEB5E200ABA398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A8B9152BFEB5E200ABA398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41A8B8F42BFEB5E100ABA398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A8B9052BFEB5E200ABA398 /* Persistence.swift in Sources */,
+				41A8B8FE2BFEB5E100ABA398 /* ContentView.swift in Sources */,
+				41A8B8FC2BFEB5E100ABA398 /* StrudelApp.swift in Sources */,
+				41A8B9082BFEB5E200ABA398 /* Strudel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A8B9092BFEB5E200ABA398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A8B9122BFEB5E200ABA398 /* StrudelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41A8B9132BFEB5E200ABA398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41A8B91E2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift in Sources */,
+				41A8B91C2BFEB5E200ABA398 /* StrudelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41A8B90F2BFEB5E200ABA398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A8B8F72BFEB5E100ABA398 /* Strudel */;
+			targetProxy = 41A8B90E2BFEB5E200ABA398 /* PBXContainerItemProxy */;
+		};
+		41A8B9192BFEB5E200ABA398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41A8B8F72BFEB5E100ABA398 /* Strudel */;
+			targetProxy = 41A8B9182BFEB5E200ABA398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41A8B91F2BFEB5E200ABA398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41A8B9202BFEB5E200ABA398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41A8B9222BFEB5E200ABA398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Strudel/Preview Content\"";
+				DEVELOPMENT_TEAM = T8USCJ33J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brandon.Strudel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41A8B9232BFEB5E200ABA398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Strudel/Preview Content\"";
+				DEVELOPMENT_TEAM = T8USCJ33J7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brandon.Strudel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41A8B9252BFEB5E200ABA398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8USCJ33J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brandon.StrudelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strudel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Strudel";
+			};
+			name = Debug;
+		};
+		41A8B9262BFEB5E200ABA398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8USCJ33J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brandon.StrudelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Strudel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Strudel";
+			};
+			name = Release;
+		};
+		41A8B9282BFEB5E200ABA398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8USCJ33J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brandon.StrudelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Strudel;
+			};
+			name = Debug;
+		};
+		41A8B9292BFEB5E200ABA398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8USCJ33J7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = brandon.StrudelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Strudel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41A8B8F32BFEB5E100ABA398 /* Build configuration list for PBXProject "Strudel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A8B91F2BFEB5E200ABA398 /* Debug */,
+				41A8B9202BFEB5E200ABA398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A8B9212BFEB5E200ABA398 /* Build configuration list for PBXNativeTarget "Strudel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A8B9222BFEB5E200ABA398 /* Debug */,
+				41A8B9232BFEB5E200ABA398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A8B9242BFEB5E200ABA398 /* Build configuration list for PBXNativeTarget "StrudelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A8B9252BFEB5E200ABA398 /* Debug */,
+				41A8B9262BFEB5E200ABA398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A8B9272BFEB5E200ABA398 /* Build configuration list for PBXNativeTarget "StrudelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41A8B9282BFEB5E200ABA398 /* Debug */,
+				41A8B9292BFEB5E200ABA398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		41A8B9062BFEB5E200ABA398 /* Strudel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				41A8B9072BFEB5E200ABA398 /* Strudel.xcdatamodel */,
+			);
+			currentVersion = 41A8B9072BFEB5E200ABA398 /* Strudel.xcdatamodel */;
+			path = Strudel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 41A8B8F02BFEB5E100ABA398 /* Project object */;
+}
