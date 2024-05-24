@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4138AA012BFEC7BD00B51876 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4138AA002BFEC7BD00B51876 /* Launch Screen.storyboard */; };
+		4138AA032BFEC84400B51876 /* Cheee in Resources */ = {isa = PBXBuildFile; fileRef = 4138AA022BFEC84400B51876 /* Cheee */; };
+		4138AA062BFEDBD100B51876 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138AA052BFEDBD100B51876 /* RecipeModel.swift */; };
+		4138AA082BFEDC5B00B51876 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138AA072BFEDC5B00B51876 /* RecipeView.swift */; };
+		4138AA0A2BFEDC9F00B51876 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138AA092BFEDC9F00B51876 /* CategoryView.swift */; };
+		4138AA0C2BFEDD8400B51876 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138AA0B2BFEDD8400B51876 /* AddRecipeView.swift */; };
+		4138AA0E2BFEDD9500B51876 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138AA0D2BFEDD9500B51876 /* DiscoverView.swift */; };
+		4138AA102BFEE3A700B51876 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138AA0F2BFEE3A700B51876 /* SignInView.swift */; };
+		4138AA132BFEE5C000B51876 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138AA122BFEE5C000B51876 /* NewRecipeView.swift */; };
+		4138AA152BFEE5D500B51876 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4138AA142BFEE5D500B51876 /* RecipeViewModel.swift */; };
 		41A8B8FC2BFEB5E100ABA398 /* StrudelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */; };
 		41A8B8FE2BFEB5E100ABA398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */; };
 		41A8B9002BFEB5E200ABA398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A8B8FF2BFEB5E200ABA398 /* Assets.xcassets */; };
@@ -16,6 +26,12 @@
 		41A8B9122BFEB5E200ABA398 /* StrudelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B9112BFEB5E200ABA398 /* StrudelTests.swift */; };
 		41A8B91C2BFEB5E200ABA398 /* StrudelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B91B2BFEB5E200ABA398 /* StrudelUITests.swift */; };
 		41A8B91E2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B91D2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift */; };
+		41A8B9622BFEC4DA00ABA398 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B9612BFEC4DA00ABA398 /* HomeView.swift */; };
+		41A8B9642BFEC4E300ABA398 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B9632BFEC4E300ABA398 /* SettingsView.swift */; };
+		41A8B9682BFEC50500ABA398 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B9672BFEC50500ABA398 /* FavoritesView.swift */; };
+		41A8B96D2BFEC56200ABA398 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B96C2BFEC56200ABA398 /* TabBar.swift */; };
+		41A8B96F2BFEC57800ABA398 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B96E2BFEC57800ABA398 /* Card.swift */; };
+		41A8B9712BFEC58B00ABA398 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B9702BFEC58B00ABA398 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4138AA002BFEC7BD00B51876 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4138AA022BFEC84400B51876 /* Cheee */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cheee; sourceTree = "<group>"; };
+		4138AA042BFEC88800B51876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4138AA052BFEDBD100B51876 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		4138AA072BFEDC5B00B51876 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		4138AA092BFEDC9F00B51876 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		4138AA0B2BFEDD8400B51876 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
+		4138AA0D2BFEDD9500B51876 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		4138AA0F2BFEE3A700B51876 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		4138AA122BFEE5C000B51876 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		4138AA142BFEE5D500B51876 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		41A8B8F82BFEB5E100ABA398 /* Strudel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strudel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrudelApp.swift; sourceTree = "<group>"; };
 		41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +75,13 @@
 		41A8B9172BFEB5E200ABA398 /* StrudelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrudelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A8B91B2BFEB5E200ABA398 /* StrudelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrudelUITests.swift; sourceTree = "<group>"; };
 		41A8B91D2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrudelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41A8B95D2BFEC3D700ABA398 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		41A8B9612BFEC4DA00ABA398 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		41A8B9632BFEC4E300ABA398 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		41A8B9672BFEC50500ABA398 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		41A8B96C2BFEC56200ABA398 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		41A8B96E2BFEC57800ABA398 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		41A8B9702BFEC58B00ABA398 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +109,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4138AA112BFEE52B00B51876 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				41A8B96E2BFEC57800ABA398 /* Card.swift */,
+				41A8B96C2BFEC56200ABA398 /* TabBar.swift */,
+				41A8B9702BFEC58B00ABA398 /* ListView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		41A8B8EF2BFEB5E100ABA398 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +142,18 @@
 		41A8B8FA2BFEB5E100ABA398 /* Strudel */ = {
 			isa = PBXGroup;
 			children = (
+				41A8B9012BFEB5E200ABA398 /* Preview Content */,
+				4138AA112BFEE52B00B51876 /* Components */,
+				41A8B95E2BFEC45C00ABA398 /* Views */,
+				41A8B95F2BFEC46D00ABA398 /* ViewModels */,
+				41A8B9602BFEC4A800ABA398 /* Models */,
+				41A8B95D2BFEC3D700ABA398 /* readme.md */,
+				4138AA002BFEC7BD00B51876 /* Launch Screen.storyboard */,
 				41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */,
-				41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */,
 				41A8B8FF2BFEB5E200ABA398 /* Assets.xcassets */,
 				41A8B9042BFEB5E200ABA398 /* Persistence.swift */,
 				41A8B9062BFEB5E200ABA398 /* Strudel.xcdatamodeld */,
-				41A8B9012BFEB5E200ABA398 /* Preview Content */,
+				4138AA042BFEC88800B51876 /* Info.plist */,
 			);
 			path = Strudel;
 			sourceTree = "<group>";
@@ -111,6 +161,7 @@
 		41A8B9012BFEB5E200ABA398 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				4138AA022BFEC84400B51876 /* Cheee */,
 				41A8B9022BFEB5E200ABA398 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -131,6 +182,39 @@
 				41A8B91D2BFEB5E200ABA398 /* StrudelUITestsLaunchTests.swift */,
 			);
 			path = StrudelUITests;
+			sourceTree = "<group>";
+		};
+		41A8B95E2BFEC45C00ABA398 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4138AA0F2BFEE3A700B51876 /* SignInView.swift */,
+				4138AA122BFEE5C000B51876 /* NewRecipeView.swift */,
+				4138AA0B2BFEDD8400B51876 /* AddRecipeView.swift */,
+				4138AA0D2BFEDD9500B51876 /* DiscoverView.swift */,
+				41A8B9612BFEC4DA00ABA398 /* HomeView.swift */,
+				41A8B9632BFEC4E300ABA398 /* SettingsView.swift */,
+				41A8B9672BFEC50500ABA398 /* FavoritesView.swift */,
+				41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */,
+				4138AA072BFEDC5B00B51876 /* RecipeView.swift */,
+				4138AA092BFEDC9F00B51876 /* CategoryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		41A8B95F2BFEC46D00ABA398 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4138AA142BFEE5D500B51876 /* RecipeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		41A8B9602BFEC4A800ABA398 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4138AA052BFEDBD100B51876 /* RecipeModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +321,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138AA012BFEC7BD00B51876 /* Launch Screen.storyboard in Resources */,
 				41A8B9032BFEB5E200ABA398 /* Preview Assets.xcassets in Resources */,
 				41A8B9002BFEB5E200ABA398 /* Assets.xcassets in Resources */,
+				4138AA032BFEC84400B51876 /* Cheee in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +349,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4138AA0C2BFEDD8400B51876 /* AddRecipeView.swift in Sources */,
 				41A8B9052BFEB5E200ABA398 /* Persistence.swift in Sources */,
+				4138AA0E2BFEDD9500B51876 /* DiscoverView.swift in Sources */,
 				41A8B8FE2BFEB5E100ABA398 /* ContentView.swift in Sources */,
 				41A8B8FC2BFEB5E100ABA398 /* StrudelApp.swift in Sources */,
+				4138AA062BFEDBD100B51876 /* RecipeModel.swift in Sources */,
+				41A8B9642BFEC4E300ABA398 /* SettingsView.swift in Sources */,
+				4138AA132BFEE5C000B51876 /* NewRecipeView.swift in Sources */,
+				41A8B9682BFEC50500ABA398 /* FavoritesView.swift in Sources */,
+				41A8B9712BFEC58B00ABA398 /* ListView.swift in Sources */,
+				4138AA152BFEE5D500B51876 /* RecipeViewModel.swift in Sources */,
+				41A8B9622BFEC4DA00ABA398 /* HomeView.swift in Sources */,
 				41A8B9082BFEB5E200ABA398 /* Strudel.xcdatamodeld in Sources */,
+				4138AA082BFEDC5B00B51876 /* RecipeView.swift in Sources */,
+				41A8B96D2BFEC56200ABA398 /* TabBar.swift in Sources */,
+				41A8B96F2BFEC57800ABA398 /* Card.swift in Sources */,
+				4138AA102BFEE3A700B51876 /* SignInView.swift in Sources */,
+				4138AA0A2BFEDC9F00B51876 /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +533,12 @@
 				DEVELOPMENT_TEAM = T8USCJ33J7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Strudel/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -462,9 +565,12 @@
 				DEVELOPMENT_TEAM = T8USCJ33J7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Strudel/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

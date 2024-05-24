@@ -8,13 +8,13 @@
 import SwiftUI
 
 @main
-struct StrudelApp: App {
-    let persistenceController = PersistenceController.shared
+struct RecipeSaverApp: App {
+    @StateObject var recipesViewModel = RecipesViewModel()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(recipesViewModel)
         }
     }
 }

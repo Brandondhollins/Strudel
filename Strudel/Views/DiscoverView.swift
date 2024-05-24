@@ -9,10 +9,24 @@ import SwiftUI
 
 struct DiscoverView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            List {
+                ForEach(Category.allCases) { category in
+                    NavigationLink {
+                        CategoryView(category: category)
+                    } label: {
+                        Text(category.rawValue + "s")
+                    }
+                }
+            }
+            .navigationTitle("Categories")
+        }
+        .navigationViewStyle(.stack)
     }
 }
 
-#Preview {
-    DiscoverView()
+struct CategoriesView_Previews: PreviewProvider {
+    static var previews: some View {
+        DiscoverView()
+    }
 }
