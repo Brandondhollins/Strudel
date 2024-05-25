@@ -4,7 +4,14 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>CheeeDemo-Schemer.otf</string>
+		<string>CheeeDemo-Baby.otf</string>
+		<string>CheeeDemo-Bingbong.otf</string>
+		<string>CheeeDemo-Boogy.otf</string>
+		<string>CheeeDemo-Chaarleee.otf</string>
+		<string>CheeeDemo-Choy.otf</string>
+		<string>CheeeDemo-Conshred.otf</string>
+		<string>CheeeDemo-Crimer.otf</string>
+		<string>CheeeDemo-Gnat.otf</string>
 	</array>
 </dict>
 </plist>

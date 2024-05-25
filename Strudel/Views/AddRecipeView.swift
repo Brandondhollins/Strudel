@@ -21,15 +21,7 @@ struct AddRecipeView: View {
                     TextField("Recipe Name", text: $name)
                 }
 
-                Section(header: Text("Category")) {
-                    Picker("Category", selection: $selectedCategory) {
-                        ForEach(Category.allCases) { category in
-                            Text(category.rawValue)
-                                .tag(category)
-                        }
-                    }
-                    .pickerStyle(.menu)
-                }
+
 
                 Section(header: Text("Description")) {
                     TextEditor(text: $description)
