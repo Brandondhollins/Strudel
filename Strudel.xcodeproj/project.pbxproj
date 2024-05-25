@@ -267,6 +267,9 @@
 				Base,
 			);
 			mainGroup = 41A8B8EF2BFEB5E100ABA398;
+			packageReferences = (
+				4158FDED2C02ABC7005CE412 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 41A8B8F92BFEB5E100ABA398 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -654,6 +657,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4158FDED2C02ABC7005CE412 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.50.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		41A8B9062BFEB5E200ABA398 /* Strudel.xcdatamodeld */ = {
