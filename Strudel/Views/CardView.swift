@@ -72,15 +72,15 @@ struct CardView: View {
                             isIncrementing = true
                         }
                     })
-                    .overlay(
-                        Text(card.name)
-                            .font(.custom("CheeeDemo-Wowie", size: isTapped ? 72 : 24))
-                            .foregroundStyle(.white)
-                            .fontWeight(isTapped ? .heavy : .heavy)
-                            .padding(.top)
-                            .shadow(color: .black, radius: isTapped ? 40 : 44, y: 0)
-                            .frame(maxHeight: .infinity, alignment: isTapped ? .center : .top)
-                    )
+//                    .overlay(
+//                        Text(card.name)
+//                            .font(.custom("CheeeDemo-Wowie", size: isTapped ? 72 : 24))
+//                            .foregroundStyle(.white)
+//                            .fontWeight(isTapped ? .heavy : .heavy)
+//                            .padding(.top)
+//                            .shadow(color: .black, radius: isTapped ? 40 : 44, y: 0)
+//                            .frame(maxHeight: .infinity, alignment: isTapped ? .center : .top)
+//                    )
                     .cornerRadius(isTapped ? 40 : 20)
                     .overlay(
                         RoundedRectangle(cornerRadius: 20)

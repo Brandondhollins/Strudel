@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4138AA012BFEC7BD00B51876 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4138AA002BFEC7BD00B51876 /* Launch Screen.storyboard */; };
 		4158FDE22C0243B0005CE412 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FDE12C0243B0005CE412 /* CardView.swift */; };
 		4158FDE42C0243B6005CE412 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FDE32C0243B6005CE412 /* Card.swift */; };
 		4158FDE62C024724005CE412 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FDE52C024724005CE412 /* Extensions.swift */; };
-		4158FDEA2C029B3A005CE412 /* Cheee in Resources */ = {isa = PBXBuildFile; fileRef = 4158FDE92C029B3A005CE412 /* Cheee */; };
 		4158FDEC2C02A6C4005CE412 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FDEB2C02A6C4005CE412 /* TabBar.swift */; };
+		4158FE002C02C6AF005CE412 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FDFF2C02C6AF005CE412 /* Tabs.swift */; };
+		4158FE022C02C90F005CE412 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE012C02C90F005CE412 /* Model.swift */; };
+		4158FE042C02C94D005CE412 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE032C02C94D005CE412 /* PreferenceKey.swift */; };
+		4158FE072C02C993005CE412 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE062C02C993005CE412 /* Animations.swift */; };
+		4158FE092C02C9E9005CE412 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE082C02C9E9005CE412 /* Modifiers.swift */; };
+		4158FE0B2C02CB7E005CE412 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE0A2C02CB7E005CE412 /* HomeView.swift */; };
+		4158FE0D2C02CB86005CE412 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE0C2C02CB86005CE412 /* DiscoverView.swift */; };
+		4158FE0F2C02CB91005CE412 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE0E2C02CB91005CE412 /* LibraryView.swift */; };
+		4158FE112C02CB97005CE412 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE102C02CB97005CE412 /* AccountView.swift */; };
+		4158FE192C02CDC5005CE412 /* CustomFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE182C02CDC5005CE412 /* CustomFieldModifier.swift */; };
+		4158FE1B2C02DF4F005CE412 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE1A2C02DF4F005CE412 /* ListRow.swift */; };
+		4158FE1F2C02E028005CE412 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE1E2C02E028005CE412 /* Directions.swift */; };
+		4158FE212C02E6BD005CE412 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE202C02E6BD005CE412 /* NavigationBar.swift */; };
+		4158FE232C02E6CF005CE412 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE222C02E6CF005CE412 /* SearchView.swift */; };
+		4158FE252C04DFA7005CE412 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE242C04DFA7005CE412 /* AnimatableFontModifier.swift */; };
+		4158FE272C04DFC3005CE412 /* TextModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE262C04DFC3005CE412 /* TextModifiers.swift */; };
+		4158FE292C04E41F005CE412 /* SectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE282C04E41F005CE412 /* SectionRow.swift */; };
+		4158FE2B2C04EE32005CE412 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158FE2A2C04EE32005CE412 /* FilterView.swift */; };
 		41A8B8FC2BFEB5E100ABA398 /* StrudelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */; };
 		41A8B8FE2BFEB5E100ABA398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */; };
 		41A8B9002BFEB5E200ABA398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A8B8FF2BFEB5E200ABA398 /* Assets.xcassets */; };
@@ -41,14 +57,43 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4158FDFD2C02B163005CE412 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		4138AA002BFEC7BD00B51876 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4138AA042BFEC88800B51876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4158FDE12C0243B0005CE412 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		4158FDE32C0243B6005CE412 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		4158FDE52C024724005CE412 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		4158FDE92C029B3A005CE412 /* Cheee */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Cheee; sourceTree = "<group>"; };
 		4158FDEB2C02A6C4005CE412 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		4158FDFF2C02C6AF005CE412 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		4158FE012C02C90F005CE412 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		4158FE032C02C94D005CE412 /* PreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		4158FE062C02C993005CE412 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		4158FE082C02C9E9005CE412 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		4158FE0A2C02CB7E005CE412 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4158FE0C2C02CB86005CE412 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		4158FE0E2C02CB91005CE412 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		4158FE102C02CB97005CE412 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		4158FE182C02CDC5005CE412 /* CustomFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFieldModifier.swift; sourceTree = "<group>"; };
+		4158FE1A2C02DF4F005CE412 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		4158FE1E2C02E028005CE412 /* Directions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
+		4158FE202C02E6BD005CE412 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		4158FE222C02E6CF005CE412 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		4158FE242C04DFA7005CE412 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
+		4158FE262C04DFC3005CE412 /* TextModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifiers.swift; sourceTree = "<group>"; };
+		4158FE282C04E41F005CE412 /* SectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRow.swift; sourceTree = "<group>"; };
+		4158FE2A2C04EE32005CE412 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		41A8B8F82BFEB5E100ABA398 /* Strudel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strudel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrudelApp.swift; sourceTree = "<group>"; };
 		41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,8 +138,23 @@
 			isa = PBXGroup;
 			children = (
 				4158FDEB2C02A6C4005CE412 /* TabBar.swift */,
+				4158FE282C04E41F005CE412 /* SectionRow.swift */,
+				4158FE1A2C02DF4F005CE412 /* ListRow.swift */,
+				4158FE202C02E6BD005CE412 /* NavigationBar.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		4158FE052C02C988005CE412 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				4158FE062C02C993005CE412 /* Animations.swift */,
+				4158FE242C04DFA7005CE412 /* AnimatableFontModifier.swift */,
+				4158FE182C02CDC5005CE412 /* CustomFieldModifier.swift */,
+				4158FE262C04DFC3005CE412 /* TextModifiers.swift */,
+				4158FE082C02C9E9005CE412 /* Modifiers.swift */,
+			);
+			path = Styles;
 			sourceTree = "<group>";
 		};
 		41A8B8EF2BFEB5E100ABA398 = {
@@ -120,12 +180,12 @@
 		41A8B8FA2BFEB5E100ABA398 /* Strudel */ = {
 			isa = PBXGroup;
 			children = (
+				4158FE052C02C988005CE412 /* Styles */,
 				41A8B9012BFEB5E200ABA398 /* Preview Content */,
 				4138AA112BFEE52B00B51876 /* Components */,
 				41A8B95E2BFEC45C00ABA398 /* Views */,
 				41A8B9602BFEC4A800ABA398 /* Models */,
 				41A8B95D2BFEC3D700ABA398 /* readme.md */,
-				4138AA002BFEC7BD00B51876 /* Launch Screen.storyboard */,
 				41A8B8FB2BFEB5E100ABA398 /* StrudelApp.swift */,
 				41A8B8FF2BFEB5E200ABA398 /* Assets.xcassets */,
 				41A8B9042BFEB5E200ABA398 /* Persistence.swift */,
@@ -164,7 +224,12 @@
 			isa = PBXGroup;
 			children = (
 				41A8B8FD2BFEB5E100ABA398 /* ContentView.swift */,
-				4158FDE92C029B3A005CE412 /* Cheee */,
+				4158FE0A2C02CB7E005CE412 /* HomeView.swift */,
+				4158FE222C02E6CF005CE412 /* SearchView.swift */,
+				4158FE2A2C04EE32005CE412 /* FilterView.swift */,
+				4158FE0C2C02CB86005CE412 /* DiscoverView.swift */,
+				4158FE0E2C02CB91005CE412 /* LibraryView.swift */,
+				4158FE102C02CB97005CE412 /* AccountView.swift */,
 				4158FDE12C0243B0005CE412 /* CardView.swift */,
 				4158FDE52C024724005CE412 /* Extensions.swift */,
 			);
@@ -175,6 +240,10 @@
 			isa = PBXGroup;
 			children = (
 				4158FDE32C0243B6005CE412 /* Card.swift */,
+				4158FDFF2C02C6AF005CE412 /* Tabs.swift */,
+				4158FE012C02C90F005CE412 /* Model.swift */,
+				4158FE1E2C02E028005CE412 /* Directions.swift */,
+				4158FE032C02C94D005CE412 /* PreferenceKey.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,12 +258,15 @@
 				41A8B8F42BFEB5E100ABA398 /* Sources */,
 				41A8B8F52BFEB5E100ABA398 /* Frameworks */,
 				41A8B8F62BFEB5E100ABA398 /* Resources */,
+				4158FDFD2C02B163005CE412 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Strudel;
+			packageProductDependencies = (
+			);
 			productName = Strudel;
 			productReference = 41A8B8F82BFEB5E100ABA398 /* Strudel.app */;
 			productType = "com.apple.product-type.application";
@@ -268,7 +340,6 @@
 			);
 			mainGroup = 41A8B8EF2BFEB5E100ABA398;
 			packageReferences = (
-				4158FDED2C02ABC7005CE412 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 41A8B8F92BFEB5E100ABA398 /* Products */;
 			projectDirPath = "";
@@ -286,10 +357,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4138AA012BFEC7BD00B51876 /* Launch Screen.storyboard in Resources */,
 				41A8B9032BFEB5E200ABA398 /* Preview Assets.xcassets in Resources */,
 				41A8B9002BFEB5E200ABA398 /* Assets.xcassets in Resources */,
-				4158FDEA2C029B3A005CE412 /* Cheee in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +383,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4158FE2B2C04EE32005CE412 /* FilterView.swift in Sources */,
 				41A8B9052BFEB5E200ABA398 /* Persistence.swift in Sources */,
+				4158FE1F2C02E028005CE412 /* Directions.swift in Sources */,
+				4158FE0B2C02CB7E005CE412 /* HomeView.swift in Sources */,
+				4158FE0D2C02CB86005CE412 /* DiscoverView.swift in Sources */,
+				4158FE112C02CB97005CE412 /* AccountView.swift in Sources */,
+				4158FE192C02CDC5005CE412 /* CustomFieldModifier.swift in Sources */,
+				4158FE292C04E41F005CE412 /* SectionRow.swift in Sources */,
+				4158FE042C02C94D005CE412 /* PreferenceKey.swift in Sources */,
+				4158FE072C02C993005CE412 /* Animations.swift in Sources */,
+				4158FE252C04DFA7005CE412 /* AnimatableFontModifier.swift in Sources */,
 				4158FDE42C0243B6005CE412 /* Card.swift in Sources */,
 				41A8B8FE2BFEB5E100ABA398 /* ContentView.swift in Sources */,
+				4158FE232C02E6CF005CE412 /* SearchView.swift in Sources */,
 				4158FDEC2C02A6C4005CE412 /* TabBar.swift in Sources */,
+				4158FE272C04DFC3005CE412 /* TextModifiers.swift in Sources */,
+				4158FE212C02E6BD005CE412 /* NavigationBar.swift in Sources */,
 				41A8B8FC2BFEB5E100ABA398 /* StrudelApp.swift in Sources */,
+				4158FE022C02C90F005CE412 /* Model.swift in Sources */,
 				41A8B9082BFEB5E200ABA398 /* Strudel.xcdatamodeld in Sources */,
+				4158FE002C02C6AF005CE412 /* Tabs.swift in Sources */,
+				4158FE0F2C02CB91005CE412 /* LibraryView.swift in Sources */,
+				4158FE1B2C02DF4F005CE412 /* ListRow.swift in Sources */,
 				4158FDE22C0243B0005CE412 /* CardView.swift in Sources */,
 				4158FDE62C024724005CE412 /* Extensions.swift in Sources */,
+				4158FE092C02C9E9005CE412 /* Modifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,17 +744,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		4158FDED2C02ABC7005CE412 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.50.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		41A8B9062BFEB5E200ABA398 /* Strudel.xcdatamodeld */ = {
